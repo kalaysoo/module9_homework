@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<title>Document</title>
+
+</head>
+
+<body>
+	<div class="form">
+		<label for="page_num">Номер страницы</label>
+		<input class="pageNumber" type="text" placeholder="Введите число:" name="num_width" id="page_num">
+		<label for="limit_num">Лимит</label>
+		<input class="limitNumber" type="text" placeholder="Введите число:" name="num_height" id="limit_num">
+		<span class="error"></span>
+		<button id="btn" type="submit">Запрос</button>
+	</div>
+
+	<div class="dataBlock"></div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.homework {
+    display: flex;
+    margin: 50px;
+}
+
+.homework_input {
+    margin-right: 10px;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.card {
+    width: auto;
+    margin: 20px;
+}
+
+.card-image {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+button {
+    width: 250px;
+    height: auto;
+    background-color: rgb(252, 227, 245);
+    font-size: 12px;
+}
